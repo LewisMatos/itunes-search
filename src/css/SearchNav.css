@@ -1,0 +1,28 @@
+.navbar {
+  border-bottom: 2px solid #000000b3;
+}
+
+.search-input {
+  display: inline-block !important;
+  width: auto !important;
+  outline-color: none;
+  border: 1px solid #0000000f !important;
+  box-shadow: none !important;
+}
+
+.search-btn {
+  color: black;
+  outline: none;
+  background-color: grey;
+  text-transform: uppercase;
+  margin: 10px;
+  border-radius: 3px;
+}
+
+.search-btn:active {
+  background-color: white;
+}
+
+.search-homelink:hover .fa-apple {
+  color: grey !important;
+}

@@ -1,0 +1,24 @@
+.cardtext {
+  font-size: 1rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  height: 1.4em;
+  color: #dc357c;
+  white-space: nowrap;
+}
+
+.card {
+  transition: all 0.2s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+
+.tracklink {
+  text-decoration: none !important;
+}
+
+.result {
+  text-align: center;
+  color: #dc357c;
+}
